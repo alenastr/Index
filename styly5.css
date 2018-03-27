@@ -1,0 +1,231 @@
+/* CSS Document */
+body, 
+html {
+  margin: 0;
+}
+
+body {
+  background: #333;
+  font: normal 18px/35px "Lato", "Indie Flower", "Open Sans", "Lobster", "Oswald", sans-serif;
+  -webkit-font-smoothing: antialised;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 50px 0;
+  text-align: center;
+}
+.section-1 {
+  background: url(../img/cupcakes.jpg) repeat repeat;
+  height: 210px;
+}
+
+.section-2 {
+ background: #D9D18C;
+}
+
+.section-3 {
+  background: #4D2D19;
+}
+
+.cupcake {
+  color: #fff;
+  font: normal 55px/65px "Oswald", sans-serif;
+}
+
+p {
+  font: normal 25px/35px "Open Sans", sans-serif;
+}
+
+span {
+  color: #000; 
+  font: bold 35px/40px "Indie Flower", sans-serif;  
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #fff;
+  font: normal 55px/80px "Lato", sans-serif; 
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2px;
+  border-bottom: 2px solid #D9D18C;
+}
+
+i {
+  color: #D9D18C;
+}
+
+input, 
+button, 
+textarea {
+  background: #fff;
+  border: none;
+  width: 30%;
+  padding: 15px 20px;
+  margin: 30px;
+  border-radius: 4px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, .12);
+}
+
+textarea {
+  width: 70%;
+}
+
+button {
+  max-width: 30%;
+  color: #000;
+  background: #D9D18C;
+  cursor: pointer;
+  font-size: 100%;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background: #D47DCA;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid #D9D18C;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  height: 35px;
+  background: #D9D18C;
+  color: #000;
+  text-align: center;
+}
+
+
+/* media */
+
+@media (max-width: 1000px) { 
+  body {
+    max-width: 100%;
+  }
+  
+  section {
+    margin: 0 auto;
+  }
+  
+  .container {
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  button:hover {
+    background: #D9D18C;
+  }
+
+}
+
+
+@media (max-width: 850px) { 
+  input, 
+  button, 
+  textarea {
+    width: 200px;
+    padding: 20px 20px;
+    margin: 30px;
+  }
+  
+  textarea {
+    width: 71%;
+  }
+  
+  button:hover {
+    background: #D9D18C;
+  }
+
+}
+
+@media (max-width: 760px) {
+  textarea {
+    width: 73%;
+  }
+
+}
+
+@media (max-width: 480px) { 
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+  
+  i {
+    visibility: hidden;
+  }
+  
+  input {
+    width: 60%;
+  }
+  
+  button {
+  max-width: 60%;
+  font-size: 100%;
+  }
+  
+  button:hover {
+    background: #D9D18C;
+  }
+    
+}
+
+
+@media (max-width: 320px) { 
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  footer {
+    height: 100%;
+  }
+  
+  h1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+  }
+  
+  i {
+    visibility: hidden;
+  }
+  
+  input {
+    width: 60%;
+  }
+  
+  textarea {
+    width: 70%;
+    margin: 20px auto;
+  }
+  
+  button {
+  max-width: 60%;
+  font-size: 100%;
+  }
+  
+  button:hover {
+    background: #D9D18C;
+  }
+
+}
+
+
